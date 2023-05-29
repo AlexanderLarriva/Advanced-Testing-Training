@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "extend-test"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Shangin <alarriva@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "extend_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
