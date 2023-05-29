@@ -8,6 +8,9 @@ packages = [{include = "extend_test"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+beautifulsoup4 = "^4.12.2"
+pytest = "^7.3.1"
+flake8 = "^6.0.0"
 
 
 [build-system]
