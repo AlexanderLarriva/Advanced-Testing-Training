@@ -1,4 +1,4 @@
-import os
+# import os
 
 from bs4 import BeautifulSoup
 
@@ -35,5 +35,7 @@ functions = {
 
 
 def get_function():
-    name = os.environ['FUNCTION_VERSION']
+    # name = os.environ['FUNCTION_VERSION'] с этим моментом было не понятно
+    # выбираю вручную вариант запуска
+    name = "right"
     return functions[name]
